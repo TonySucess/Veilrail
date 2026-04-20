@@ -1,0 +1,200 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-card-border: hsl(var(--card-border));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-popover-border: hsl(var(--popover-border));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-primary-border: var(--primary-border);
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-secondary-border: var(--secondary-border);
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-muted-border: var(--muted-border);
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-accent-border: var(--accent-border);
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-destructive-border: var(--destructive-border);
+
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+
+  --color-sidebar: hsl(var(--sidebar));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --color-sidebar-primary: hsl(var(--sidebar-primary));
+  --color-sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --color-sidebar-primary-border: var(--sidebar-primary-border);
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+  --color-sidebar-accent-border: var(--sidebar-accent-border);
+  --color-sidebar-ring: hsl(var(--sidebar-ring));
+
+  --font-sans: var(--app-font-sans);
+  --font-mono: var(--app-font-mono);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --background: 0 0% 4%; /* #0a0a0a */
+  --foreground: 0 0% 100%;
+  --card: 200 10% 7%; /* ~#101314 */
+  --card-foreground: 0 0% 100%;
+  --card-border: 210 8% 16%; /* ~#232a30 */
+  --popover: 200 10% 7%;
+  --popover-foreground: 0 0% 100%;
+  --popover-border: 210 8% 16%;
+  --primary: 154 100% 50%; /* #00ff9d */
+  --primary-foreground: 0 0% 4%;
+  --secondary: 200 10% 12%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 200 10% 10%;
+  --muted-foreground: 214 10% 62%; /* ~#8a93a0 */
+  --accent: 154 100% 50%; /* #00ff9d */
+  --accent-foreground: 0 0% 4%;
+  --destructive: 0 70% 55%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 210 8% 16%;
+  --input: 210 8% 16%;
+  --ring: 154 100% 50%;
+
+  --radius: 0.5rem;
+
+  --app-font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --app-font-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+}
+
+.dark {
+  /* same tokens as root */
+}
+
+@layer base {
+  html, body {
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+  * { @apply border-border; }
+  body { @apply font-sans antialiased bg-background text-foreground; }
+
+  @keyframes veil-fade-up {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .veil-fade-up {
+    animation: veil-fade-up 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .veil-fade-up-delay {
+    animation: veil-fade-up 420ms cubic-bezier(0.22, 1, 0.36, 1) 80ms both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .veil-fade-up, .veil-fade-up-delay { animation: none; opacity: 1; transform: none; }
+  }
+
+  @keyframes veil-scan {
+    0%   { transform: translateY(-4px); opacity: 0; }
+    15%  { opacity: 1; }
+    85%  { opacity: 1; }
+    100% { transform: translateY(var(--veil-scan-distance, 220px)); opacity: 0; }
+  }
+  .veil-scan {
+    animation: veil-scan 720ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  @keyframes veil-pulse-soft {
+    0%, 100% { opacity: 0.55; }
+    50%      { opacity: 1; }
+  }
+  .veil-pulse-soft {
+    animation: veil-pulse-soft 2.4s ease-in-out infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .veil-scan, .veil-pulse-soft { animation: none; }
+  }
+
+  @keyframes veil-aurora-a-drift {
+    0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.85; }
+    50%      { transform: translate(-5%, 4%) scale(1.04); opacity: 1; }
+  }
+  .veil-aurora-a {
+    animation: veil-aurora-a-drift 22s ease-in-out infinite;
+    will-change: transform, opacity;
+  }
+  @keyframes veil-aurora-b-drift {
+    0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.85; }
+    50%      { transform: translate(7%, -4%) scale(1.05); opacity: 1; }
+  }
+  .veil-aurora-b {
+    animation: veil-aurora-b-drift 28s ease-in-out infinite;
+    will-change: transform, opacity;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .veil-aurora-a, .veil-aurora-b { animation: none; }
+  }
+
+  /* Selection */
+  ::selection { background: hsl(var(--accent) / 0.2); color: hsl(var(--accent)); }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: hsl(var(--background)); }
+  ::-webkit-scrollbar-thumb { background: hsl(var(--border)); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground)); }
+
+  /* Override wallet adapter default CSS */
+  .wallet-adapter-button {
+    background-color: hsl(var(--accent)) !important;
+    color: hsl(var(--background)) !important;
+    font-family: var(--app-font-sans) !important;
+    font-weight: 500 !important;
+    border-radius: var(--radius) !important;
+    padding: 0 16px !important;
+    height: 40px !important;
+    transition: all 0.2s ease !important;
+  }
+  .wallet-adapter-button:hover {
+    background-color: hsl(var(--accent) / 0.9) !important;
+  }
+  .wallet-adapter-modal-wrapper {
+    background: hsl(var(--card)) !important;
+    border: 1px solid hsl(var(--border)) !important;
+    border-radius: var(--radius) !important;
+    color: hsl(var(--foreground)) !important;
+    font-family: var(--app-font-sans) !important;
+  }
+  .wallet-adapter-modal-title {
+    color: hsl(var(--foreground)) !important;
+  }
+  .wallet-adapter-modal-button-close {
+    background: hsl(var(--muted)) !important;
+    color: hsl(var(--foreground)) !important;
+  }
+}

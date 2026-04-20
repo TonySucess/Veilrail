@@ -1,0 +1,21 @@
+[package]
+name = "veil-verifier"
+version = "0.1.0"
+description = "VeilRail Groth16 BN254 proof verifier program."
+edition = "2021"
+license = "Apache-2.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "veil_verifier"
+
+[features]
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = { workspace = true, features = ["init-if-needed"] }
+solana-program = { workspace = true }

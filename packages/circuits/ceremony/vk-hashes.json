@@ -1,0 +1,27 @@
+{
+  "_comment": "Per-circuit hashes. `vk_sha256` is sha256 of the snarkjs verification_key.json file (re-verifiable with `sha256sum`). `vk_onchain_sha256` is sha256 of the binary BN254 vk_bytes that get pinned on-chain by the veil-verifier `upload_vk` instruction (alpha_g1 || beta_g2 || gamma_g2 || delta_g2 || ic[]); set this from the value printed by scripts/veilrail/upload-vk.sh after each upload. The /ceremony page reads each Vk PDA and flags any drift between the on-chain bytes and this manifest.",
+  "ptau": {
+    "file": "pot15_final.ptau",
+    "sha256": "0bce6ae03a75529d649718855948a5301e9afcac2b003c5fa6220ed6544b92e0"
+  },
+  "circuits": {
+    "veil_auth": {
+      "circuit_id": 0,
+      "zkey_sha256": "9f6dffdc590c1fae970c4b003fb64739590a508bc0ce1df15eb80c2be3200697",
+      "vk_sha256": "891ffc4d65af8ccffb84673a0e4526ad73aab3bdfaf5f3b210d7a22de9713793",
+      "vk_onchain_sha256": "7399d32bf68b3aca07385f5e2a8be1817612ddf8b95f11ff52d406300729386a"
+    },
+    "veil_completion": {
+      "circuit_id": 1,
+      "zkey_sha256": "146cb6534ad69014228967eb5a014c2305f2bdea19622f1ff0a0f3ae929eb994",
+      "vk_sha256": "5323bde6c1080f42ac9cf71907df0a1ca01cb322dd7e8a89c56b3b9a64d869c5",
+      "vk_onchain_sha256": "b1acc4e0791606804e5b650e8caa9a5c6dcb5f135dac310a61ea51d9292e5668"
+    },
+    "veil_pool_note": {
+      "circuit_id": 2,
+      "zkey_sha256": "18b1d95b65ce3ffe03e1511c11542c755d7f3f78f79af76b6f800e009df8b7cb",
+      "vk_sha256": "290eab4653d97912ce4247ae135bba8619aa9070d9dd15e949b74a90c2ab6830",
+      "vk_onchain_sha256": "e5d67214b81b4f610ba83fe9462334c5221b98439df907863f5fa7b5479f1480"
+    }
+  }
+}

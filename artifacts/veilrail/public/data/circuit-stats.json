@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-04-27T05:52:47.647Z",
+  "sourceCommit": "08f09b1",
+  "circuits": {
+    "veil_auth": {
+      "constraints": 1704,
+      "wires": 1711,
+      "privateInputs": 6,
+      "publicInputs": 4,
+      "sourcePath": "packages/circuits/src/veil_auth.circom",
+      "r1csPath": "packages/circuits/build/veil_auth/veil_auth.r1cs"
+    },
+    "veil_completion": {
+      "constraints": 3282,
+      "wires": 3287,
+      "privateInputs": 38,
+      "publicInputs": 4,
+      "sourcePath": "packages/circuits/src/veil_completion.circom",
+      "r1csPath": "packages/circuits/build/veil_completion/veil_completion.r1cs"
+    },
+    "veil_pool_note": {
+      "constraints": 17000,
+      "wires": 17035,
+      "privateInputs": 66,
+      "publicInputs": 4,
+      "sourcePath": "packages/circuits/src/veil_pool_note.circom",
+      "r1csPath": "packages/circuits/build/veil_pool_note/veil_pool_note.r1cs"
+    }
+  },
+  "pool": {
+    "depth": 28,
+    "capacity": 268435456,
+    "capacityExpr": "2^28",
+    "sourcePath": "packages/circuits/src/veil_pool_note.circom"
+  },
+  "totalConstraints": 21986
+}

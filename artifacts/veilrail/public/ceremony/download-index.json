@@ -1,0 +1,324 @@
+{
+  "generated": "2026-04-20T20:23:16Z",
+  "pot_power": 15,
+  "base_url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony",
+  "transcript": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/TRANSCRIPT.md",
+  "vk_hashes": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/vk-hashes.json",
+  "files": [
+    {
+      "phase": "phase1",
+      "kind": "phase1-init",
+      "file": "pot15_0000.ptau",
+      "relative_path": "phase1/pot15_0000.ptau",
+      "size_bytes": 12583120,
+      "sha256": "e43fb710e482f5d741cf2ec40af9a60b76b7234dda9e86b10bc489aff8ca26de",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase1/pot15_0000.ptau",
+      "contribution_index": 0
+    },
+    {
+      "phase": "phase1",
+      "kind": "phase1-contribution",
+      "file": "pot15_0001.ptau",
+      "relative_path": "phase1/pot15_0001.ptau",
+      "size_bytes": 12584631,
+      "sha256": "ebd0ad41ad9e449ed4a98180e6187513e7dff69eab7cc6e794f56c59ca363bd0",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase1/pot15_0001.ptau",
+      "contributor": "dry-run-1",
+      "contribution_index": 1
+    },
+    {
+      "phase": "phase1",
+      "kind": "phase1-contribution",
+      "file": "pot15_0002.ptau",
+      "relative_path": "phase1/pot15_0002.ptau",
+      "size_bytes": 12586140,
+      "sha256": "1ed564f4ad4b83cfcbcfabc12f34059d028a70fb148f7d86fa78b551fa228aa9",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase1/pot15_0002.ptau",
+      "contributor": "dry-run-2",
+      "contribution_index": 2
+    },
+    {
+      "phase": "phase1",
+      "kind": "phase1-contribution",
+      "file": "pot15_0003.ptau",
+      "relative_path": "phase1/pot15_0003.ptau",
+      "size_bytes": 12587651,
+      "sha256": "b624dca6338a0d8c12fdf0fb252e8d7a76c293eb15bd0a3b99d26e1a92515bc5",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase1/pot15_0003.ptau",
+      "contributor": "dry-run-3",
+      "contribution_index": 3
+    },
+    {
+      "phase": "phase1",
+      "kind": "phase1-contribution",
+      "file": "pot15_0004.ptau",
+      "relative_path": "phase1/pot15_0004.ptau",
+      "size_bytes": 12589161,
+      "sha256": "c676ce056576056c0d4e712dc59075db291dd69a657e997c4acd10a988f0ac8f",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase1/pot15_0004.ptau",
+      "contributor": "dry-run-4",
+      "contribution_index": 4
+    },
+    {
+      "phase": "phase1",
+      "kind": "phase1-beacon",
+      "file": "pot15_beacon.ptau",
+      "relative_path": "phase1/pot15_beacon.ptau",
+      "size_bytes": 12590733,
+      "sha256": "7349782046dfac5dc67d9d82a331ed6f517786fd5e787937f86c4037c4ced789",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase1/pot15_beacon.ptau"
+    },
+    {
+      "phase": "phase1",
+      "kind": "phase1-final",
+      "file": "pot15_final.ptau",
+      "relative_path": "phase1/pot15_final.ptau",
+      "size_bytes": 16784985,
+      "sha256": "0bce6ae03a75529d649718855948a5301e9afcac2b003c5fa6220ed6544b92e0",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase1/pot15_final.ptau"
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-init",
+      "file": "veil_auth_0000.zkey",
+      "relative_path": "phase2/veil_auth/veil_auth_0000.zkey",
+      "size_bytes": 754128,
+      "sha256": "761cfaebdbcac1fb1fbe22a909d3f30ceb5ad657a4852fbf0c23954837f01123",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_auth/veil_auth_0000.zkey",
+      "contribution_index": 0
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_auth_0001.zkey",
+      "relative_path": "phase2/veil_auth/veil_auth_0001.zkey",
+      "size_bytes": 754527,
+      "sha256": "8303fce50869beadba1a6176b9858099fa57252f78038597cf6ffcdbbbffa7de",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_auth/veil_auth_0001.zkey",
+      "contributor": "dry-run-1",
+      "contribution_index": 1
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_auth_0002.zkey",
+      "relative_path": "phase2/veil_auth/veil_auth_0002.zkey",
+      "size_bytes": 754924,
+      "sha256": "45d6b5e67a33ceea39b70a51cacee04241cf7834172ac48d5f501c4992cef5f4",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_auth/veil_auth_0002.zkey",
+      "contributor": "dry-run-2",
+      "contribution_index": 2
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_auth_0003.zkey",
+      "relative_path": "phase2/veil_auth/veil_auth_0003.zkey",
+      "size_bytes": 755323,
+      "sha256": "566f99191f631976d2fd1acf5b51bb03f548aecb1d75463e343eaca69369c02c",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_auth/veil_auth_0003.zkey",
+      "contributor": "dry-run-3",
+      "contribution_index": 3
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_auth_0004.zkey",
+      "relative_path": "phase2/veil_auth/veil_auth_0004.zkey",
+      "size_bytes": 755721,
+      "sha256": "ba7bc1748561c96bfa32c9decd6b82675ea32ed876fb807bb100cd157024fd61",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_auth/veil_auth_0004.zkey",
+      "contributor": "dry-run-4",
+      "contribution_index": 4
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-beacon",
+      "file": "veil_auth_beacon.zkey",
+      "relative_path": "phase2/veil_auth/veil_auth_beacon.zkey",
+      "size_bytes": 756193,
+      "sha256": "9f6dffdc590c1fae970c4b003fb64739590a508bc0ce1df15eb80c2be3200697",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_auth/veil_auth_beacon.zkey"
+    },
+    {
+      "phase": "phase2",
+      "kind": "zkey-final",
+      "file": "veil_auth_final.zkey",
+      "relative_path": "phase2/veil_auth/veil_auth_final.zkey",
+      "size_bytes": 756193,
+      "sha256": "9f6dffdc590c1fae970c4b003fb64739590a508bc0ce1df15eb80c2be3200697",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_auth/veil_auth_final.zkey"
+    },
+    {
+      "phase": "phase2",
+      "kind": "verification-key",
+      "file": "veil_auth_vk.json",
+      "relative_path": "phase2/veil_auth/veil_auth_vk.json",
+      "size_bytes": 3469,
+      "sha256": "891ffc4d65af8ccffb84673a0e4526ad73aab3bdfaf5f3b210d7a22de9713793",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_auth/veil_auth_vk.json"
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-init",
+      "file": "veil_completion_0000.zkey",
+      "relative_path": "phase2/veil_completion/veil_completion_0000.zkey",
+      "size_bytes": 1546336,
+      "sha256": "771869893baf43475681a4a69bb67b76d520e038413dce8a3ec84266a365539f",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_completion/veil_completion_0000.zkey",
+      "contribution_index": 0
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_completion_0001.zkey",
+      "relative_path": "phase2/veil_completion/veil_completion_0001.zkey",
+      "size_bytes": 1546735,
+      "sha256": "aac62bd49ae4b6f24ce7a65481941a9a84a87d6c17cfd090a09ab45086527b96",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_completion/veil_completion_0001.zkey",
+      "contributor": "dry-run-1",
+      "contribution_index": 1
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_completion_0002.zkey",
+      "relative_path": "phase2/veil_completion/veil_completion_0002.zkey",
+      "size_bytes": 1547132,
+      "sha256": "f04b6b784e034e52eebdd5c8b313839700e340baf6f6c9f8ae67275a18fbf205",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_completion/veil_completion_0002.zkey",
+      "contributor": "dry-run-2",
+      "contribution_index": 2
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_completion_0003.zkey",
+      "relative_path": "phase2/veil_completion/veil_completion_0003.zkey",
+      "size_bytes": 1547531,
+      "sha256": "8df03d791421a1f4a785aa463a95111d6c9cb521cebd7d86aa249f86b5386504",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_completion/veil_completion_0003.zkey",
+      "contributor": "dry-run-3",
+      "contribution_index": 3
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_completion_0004.zkey",
+      "relative_path": "phase2/veil_completion/veil_completion_0004.zkey",
+      "size_bytes": 1547929,
+      "sha256": "4fdc50f1c34fe179ca2f1114e8e3be03daf111bad7433e2fa7b36ef80cc0824e",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_completion/veil_completion_0004.zkey",
+      "contributor": "dry-run-4",
+      "contribution_index": 4
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-beacon",
+      "file": "veil_completion_beacon.zkey",
+      "relative_path": "phase2/veil_completion/veil_completion_beacon.zkey",
+      "size_bytes": 1548407,
+      "sha256": "146cb6534ad69014228967eb5a014c2305f2bdea19622f1ff0a0f3ae929eb994",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_completion/veil_completion_beacon.zkey"
+    },
+    {
+      "phase": "phase2",
+      "kind": "zkey-final",
+      "file": "veil_completion_final.zkey",
+      "relative_path": "phase2/veil_completion/veil_completion_final.zkey",
+      "size_bytes": 1548407,
+      "sha256": "146cb6534ad69014228967eb5a014c2305f2bdea19622f1ff0a0f3ae929eb994",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_completion/veil_completion_final.zkey"
+    },
+    {
+      "phase": "phase2",
+      "kind": "verification-key",
+      "file": "veil_completion_vk.json",
+      "relative_path": "phase2/veil_completion/veil_completion_vk.json",
+      "size_bytes": 3474,
+      "sha256": "5323bde6c1080f42ac9cf71907df0a1ca01cb322dd7e8a89c56b3b9a64d869c5",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_completion/veil_completion_vk.json"
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-init",
+      "file": "veil_pool_note_0000.zkey",
+      "relative_path": "phase2/veil_pool_note/veil_pool_note_0000.zkey",
+      "size_bytes": 8273856,
+      "sha256": "af81d1c32c744a9747f8893ad9fbf33ee96cfb940f7c3be3c83cc45d19edfb77",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_pool_note/veil_pool_note_0000.zkey",
+      "contribution_index": 0
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_pool_note_0001.zkey",
+      "relative_path": "phase2/veil_pool_note/veil_pool_note_0001.zkey",
+      "size_bytes": 8274255,
+      "sha256": "83488fccacd94b318db102aad34c41286afabce87bd8f91011b493202b894a17",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_pool_note/veil_pool_note_0001.zkey",
+      "contributor": "dry-run-1",
+      "contribution_index": 1
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_pool_note_0002.zkey",
+      "relative_path": "phase2/veil_pool_note/veil_pool_note_0002.zkey",
+      "size_bytes": 8274652,
+      "sha256": "10c640424ddc91ca8fc8e43db1f76ef2f48b098c5c8e301ea3d5fe104291193c",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_pool_note/veil_pool_note_0002.zkey",
+      "contributor": "dry-run-2",
+      "contribution_index": 2
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_pool_note_0003.zkey",
+      "relative_path": "phase2/veil_pool_note/veil_pool_note_0003.zkey",
+      "size_bytes": 8275051,
+      "sha256": "e4ce4eb05d8c54d0b4662d5c1b595d881fd00037559a3fea3974772520afc512",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_pool_note/veil_pool_note_0003.zkey",
+      "contributor": "dry-run-3",
+      "contribution_index": 3
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-contribution",
+      "file": "veil_pool_note_0004.zkey",
+      "relative_path": "phase2/veil_pool_note/veil_pool_note_0004.zkey",
+      "size_bytes": 8275449,
+      "sha256": "9f609b2ebe88562834151d8e0e33c3a2c877f47592ea25a02a83a8e25bf03e24",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_pool_note/veil_pool_note_0004.zkey",
+      "contributor": "dry-run-4",
+      "contribution_index": 4
+    },
+    {
+      "phase": "phase2",
+      "kind": "phase2-beacon",
+      "file": "veil_pool_note_beacon.zkey",
+      "relative_path": "phase2/veil_pool_note/veil_pool_note_beacon.zkey",
+      "size_bytes": 8275926,
+      "sha256": "18b1d95b65ce3ffe03e1511c11542c755d7f3f78f79af76b6f800e009df8b7cb",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_pool_note/veil_pool_note_beacon.zkey"
+    },
+    {
+      "phase": "phase2",
+      "kind": "zkey-final",
+      "file": "veil_pool_note_final.zkey",
+      "relative_path": "phase2/veil_pool_note/veil_pool_note_final.zkey",
+      "size_bytes": 8275926,
+      "sha256": "18b1d95b65ce3ffe03e1511c11542c755d7f3f78f79af76b6f800e009df8b7cb",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_pool_note/veil_pool_note_final.zkey"
+    },
+    {
+      "phase": "phase2",
+      "kind": "verification-key",
+      "file": "veil_pool_note_vk.json",
+      "relative_path": "phase2/veil_pool_note/veil_pool_note_vk.json",
+      "size_bytes": 3475,
+      "sha256": "290eab4653d97912ce4247ae135bba8619aa9070d9dd15e949b74a90c2ab6830",
+      "url": "https://github.com/TonySucess/Veilrail/raw/main/artifacts/veilrail/public/ceremony/phase2/veil_pool_note/veil_pool_note_vk.json"
+    }
+  ]
+}

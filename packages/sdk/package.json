@@ -1,0 +1,43 @@
+{
+  "name": "@veilrail/sdk",
+  "version": "0.1.0-devnet",
+  "description": "Client SDK for VeilRail — zero-knowledge agent-to-agent payments on Solana.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "snarkjs": "^0.7.5"
+  },
+  "peerDependenciesMeta": {
+    "snarkjs": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@solana/web3.js": "1.95.4",
+    "@types/node": "catalog:",
+    "snarkjs": "^0.7.5",
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.4"
+  },
+  "dependencies": {
+    "poseidon-lite": "^0.3.0"
+  }
+}

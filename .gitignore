@@ -1,0 +1,50 @@
+# Build output
+dist
+build
+out
+out-tsc
+target
+tmp
+*.tsbuildinfo
+.expo
+.expo-shared
+
+# Dependencies
+node_modules
+.pnpm-store
+
+# Coverage / logs
+coverage
+*.log
+npm-debug.log
+yarn-error.log
+testem.log
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# Anchor / Solana keypairs and deploy artifacts
+**/target/
+**/*.so
+**/test-ledger/
+**/keypair*.json
+!packages/programs/Anchor.toml
+
+# Heavy circuit/ceremony artifacts (manifest is published, blobs are mirrored to release downloads)
+packages/circuits/ceremony/pot/
+packages/circuits/ceremony/phase2/
+packages/circuits/build/
+packages/circuits/ceremony/keys/*_ed25519
+packages/circuits/ceremony/keys/*.priv
+
+# Misc
+.env
+.env.*
+!.env.example
